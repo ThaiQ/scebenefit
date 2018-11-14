@@ -14,6 +14,12 @@
     text-align: center;
 }
 
+#title{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
 .card-img{
   width: 158px !important;
   height: 158px !important;
@@ -23,12 +29,9 @@
 .card{
   margin: 15px;
   width: 220px !important;
-  height: relative !important;
+  //height: 480px !important;
+  //height: relative !important;
   border: 6px solid rgba(0, 0, 0, 0.125) !important;
-}
-
-.sec2{
-  border-color: red !important;
 }
 
 .secN{
@@ -47,17 +50,34 @@
   border: 2px solid white;
 }
 
-/*#d3{
-  height: 590px !important;
+#d2{
+  margin-bottom: 40px;
 }
 
-#shop{
-  top: 500px;
-}*/
-
-#shop:hover {
-    border-color: #bbbbbb !important;
+#shop:hover >  #ishop{
+    content:url("./img/shop.jpg");
 }
+#locker:hover >  #ilocker{
+    content:url("./img/locker.png");
+}
+#d2:hover >  #id2{
+    content:url("./img/printer.jpg");
+}
+#d3:hover >  #id3{
+    content:url("./img/3d-printer.png");
+}
+#hardware:hover >  #ihardware{
+    content:url("./img/hardware.jpg");
+}
+#monitor:hover >  #imonitor{
+    content:url("./img/monitor.jpg");
+}
+
+#text{
+  text-align: left;
+}
+
+/*
 #locker:hover {
     border-color: #6ba7e8 !important;
 }
@@ -72,4 +92,4 @@
 }
 #monitor:hover {
     border-color: #eb7a85 !important;
-}
+}*/
