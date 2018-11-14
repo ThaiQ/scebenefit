@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
 
       <div>
-      <h1></h1>
+      <h1 id="title">sce services for members</h1>
       </div>
 
       <div className="sec sec1">
@@ -21,8 +21,8 @@ class App extends Component {
         <div className="services">
           <Card id="shop" body outline color="secondary">
             <CardTitle className="title">SCE Shop</CardTitle>
-            <CardImg src="../img/shop.jpg" alt="Shop" />
-            <CardText>
+            <CardImg id="ishop" src="../img/shop.jpg" alt="Shop" />
+            <CardText id="text">
               <ul>
                 <li>Snacks and beverages.</li>
                 <li>Frozen Dinner and muffins.</li>
@@ -37,11 +37,11 @@ class App extends Component {
         <div className="services">
           <Card id="locker" body outline color="primary">
             <CardTitle className="title">Locker Service</CardTitle>
-            <CardImg src="../img/locker.png" alt="Locker" />
-            <CardText>
+            <CardImg id="ilocker" src="../img/locker.png" alt="Locker" />
+            <CardText id="text">
               <ul>
-                <li>30-pages limit per week.</li>
-                <li>Reset every Sunday.</li>
+                <li>$10 per person.</li>
+                <li>3 members per locker.</li>
               </ul>
             </CardText>
             <Button>Rent</Button>
@@ -55,11 +55,11 @@ class App extends Component {
         <div className="services">
           <Card id="d2" body outline color="success">
             <CardTitle className="title">2D-Printing Service</CardTitle>
-            <CardImg src="../img/printer.jpg" alt="Printer-2D" />
-            <CardText>
+            <CardImg id="id2" src="../img/printer.jpg" alt="Printer-2D" />
+            <CardText id="text">
               <ul>
-                <li>$10 per person.</li>
-                <li>3 members per locker.</li>
+                <li>30-pages limit per week.</li>
+                <li>Reset every Sunday.</li>
               </ul>
             </CardText>
             <Button>Print</Button>
@@ -69,8 +69,8 @@ class App extends Component {
         <div className="services">
           <Card id="d3" body outline color="info">
             <CardTitle className="title">3D-Printing Service</CardTitle>
-            <CardImg src="../img/3d-printer.png" alt="Printer-3D" />
-            <CardText>
+            <CardImg id="id3" src="../img/3d-printer.png" alt="Printer-3D" />
+            <CardText id="text">
               <ul>
                 <li>Custom part printer service.</li>
                 <li>Contact our 3D Printing Specialist Nicholas Papano at nicholas.papano@sjsu.edu about our ABS and PLA printing options.</li>
@@ -87,8 +87,8 @@ class App extends Component {
         <div className="services">
           <Card id="hardware" body outline color="warning">
             <CardTitle className="title">Hardware Station</CardTitle>
-            <CardImg src="../img/hardware.jpg" alt="Hardware Station" />
-            <CardText>
+            <CardImg id="ihardware" src="../img/hardware.jpg" alt="Hardware Station" />
+            <CardText id="text">
               <ul>
                 <li>ESD benches.</li>
                 <li>Soldering tools, Soldering irons, and fume fans.</li>
@@ -102,8 +102,8 @@ class App extends Component {
         <div className="services">
           <Card id="monitor" body outline color="danger">
             <CardTitle className="title">Monitor Service</CardTitle>
-            <CardImg src="../img/monitor.jpg" alt="Monitor" />
-            <CardText>
+            <CardImg id="imonitor" src="../img/monitor.jpg" alt="Monitor" />
+            <CardText id="text">
               <ul>
                 <li>Every table at SCE comes with a monitor for you.</li>
               </ul>

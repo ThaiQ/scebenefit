@@ -6,10 +6,12 @@
   background-color: #272727;
   padding-top: 5px;
   padding-bottom: 5px;
+  display: inline-block;
 }
 
 .tab{
   background-color: #272727;
+  text-align: center;
 }
 
 .sec{
@@ -18,7 +20,7 @@
   //border: 2px solid yellow;
   margin: 20px;
   text-align: center;
-  position:static;
+  position:fix;
 }
 
 .services{
