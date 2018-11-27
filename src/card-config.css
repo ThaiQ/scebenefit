@@ -1,0 +1,95 @@
+.sec1{
+  background-color: #272727;
+  border: 2px solid #272727;
+}
+.sec2{
+  background-color: #272727;
+  border: 2px solid #272727;
+}.sec3{
+  background-color: #272727;
+  border: 2px solid #272727;
+}
+
+.title{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card-img{
+  width: 158px !important;
+  height: 158px !important;
+  margin-left: 10px;
+}
+
+.card{
+  margin: 15px;
+  width: 220px !important;
+  //height: 480px !important;
+  //height: relative !important;
+  border: 6px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.secN{
+  color: white;
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.sec1:hover{
+  border: 2px solid white;
+}
+.sec2:hover{
+  border: 2px solid white;
+}
+.sec3:hover{
+  border: 2px solid white;
+}
+
+#d2{
+  margin-bottom: 40px;
+}
+
+#shop:hover >  #ishop{
+    content:url("./img/shop.jpg");
+}
+#locker:hover >  #ilocker{
+    content:url("./img/locker.png");
+}
+#d2:hover >  #id2{
+    content:url("./img/printer.jpg");
+}
+#d3:hover >  #id3{
+    content:url("./img/3d-printer.png");
+}
+#hardware:hover >  #ihardware{
+    content:url("./img/hardware.jpg");
+}
+#monitor:hover >  #imonitor{
+    content:url("./img/monitor.jpg");
+}
+
+#text{
+  text-align: left;
+}
+
+/*
+#locker:hover {
+    border-color: #6ba7e8 !important;
+}
+#d2:hover {
+    border-color: #82d595 !important;
+}
+#d3:hover {
+    border-color: #89e9f9 !important;
+}
+#hardware:hover {
+    border-color: #ffdf7e !important;
+}
+#monitor:hover {
+    border-color: #eb7a85 !important;
+}*/
