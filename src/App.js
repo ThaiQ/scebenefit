@@ -21,7 +21,7 @@ class App extends Component {
         <div className="services">
           <Card id="shop" body outline color="secondary">
             <CardTitle className="title">SCE Shop</CardTitle>
-            <CardImg id="ishop" src="../img/shop.jpg" alt="Shop" />
+            <CardImg id="ishop" src="../img/shop.png" alt="Shop" />
             <CardText id="text">
               <ul>
                 <li>Snacks and beverages.</li>
@@ -29,7 +29,7 @@ class App extends Component {
                 <li>CMPE lab supplies.</li>
               </ul>
             </CardText>
-            <Button>Shop</Button>
+            <Button className="button" id="bshop">Shop</Button>
           </Card>
 
         </div>
@@ -44,7 +44,7 @@ class App extends Component {
                 <li>3 members per locker.</li>
               </ul>
             </CardText>
-            <Button>Rent</Button>
+            <Button className="button" id="blocker">Rent</Button>
           </Card>
         </div>
       </div>
@@ -55,14 +55,14 @@ class App extends Component {
         <div className="services">
           <Card id="d2" body outline color="success">
             <CardTitle className="title">2D-Printing Service</CardTitle>
-            <CardImg id="id2" src="../img/printer.jpg" alt="Printer-2D" />
+            <CardImg id="id2" src="../img/printer.png" alt="Printer-2D" />
             <CardText id="text">
               <ul>
                 <li>30-pages limit per week.</li>
                 <li>Reset every Sunday.</li>
               </ul>
             </CardText>
-            <Button>Print</Button>
+            <Button className="button" id="bd2">Print</Button>
           </Card>
         </div>
 
@@ -72,11 +72,11 @@ class App extends Component {
             <CardImg id="id3" src="../img/3d-printer.png" alt="Printer-3D" />
             <CardText id="text">
               <ul>
-                <li>Custom part printer service.</li>
-                <li>Contact our 3D Printing Specialist Nicholas Papano at nicholas.papano@sjsu.edu about our ABS and PLA printing options.</li>
+                <li>FREE TISSUE</li>
+                <li>I HAVE ISSUE</li>
               </ul>
             </CardText>
-            <Button>Print</Button>
+            <Button className="button" id="bd3">Print</Button>
           </Card>
         </div>
       </div>
@@ -87,7 +87,7 @@ class App extends Component {
         <div className="services">
           <Card id="hardware" body outline color="warning">
             <CardTitle className="title">Hardware Station</CardTitle>
-            <CardImg id="ihardware" src="../img/hardware.jpg" alt="Hardware Station" />
+            <CardImg id="ihardware" src="../img/hardware.png" alt="Hardware Station" />
             <CardText id="text">
               <ul>
                 <li>ESD benches.</li>
@@ -95,20 +95,20 @@ class App extends Component {
                 <li>Power supplies and multimeters.</li>
               </ul>
             </CardText>
-            <Button>Start Hacking</Button>
+            <Button className="button" id="bhardware">Start Hacking</Button>
           </Card>
         </div>
 
         <div className="services">
           <Card id="monitor" body outline color="danger">
-            <CardTitle className="title">Monitor Service</CardTitle>
-            <CardImg id="imonitor" src="../img/monitor.jpg" alt="Monitor" />
+            <CardTitle className="title">Monitors and Keyboards</CardTitle>
+            <CardImg id="imonitor" src="../img/monitor.png" alt="Monitor" />
             <CardText id="text">
               <ul>
                 <li>Every table at SCE comes with a monitor for you.</li>
               </ul>
             </CardText>
-            <Button>Monitor</Button>
+            <Button className="button" id="bmonitor">Monitor</Button>
           </Card>
         </div>
       </div>
