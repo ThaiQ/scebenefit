@@ -1,13 +1,13 @@
 .sec1{
-  background-color: #272727;
-  border: 2px solid #272727;
+  background-color: #E1F5FE;
+  border: 2px solid #E1F5FE;
 }
 .sec2{
-  background-color: #272727;
-  border: 2px solid #272727;
+  background-color: #E1F5FE;
+  border: 2px solid #E1F5FE;
 }.sec3{
-  background-color: #272727;
-  border: 2px solid #272727;
+  background-color: #E1F5FE;
+  border: 2px solid #E1F5FE;
 }
 
 .title{
@@ -16,7 +16,7 @@
 
 #title{
     text-align: center;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -29,67 +29,72 @@
 .card{
   margin: 15px;
   width: 220px !important;
-  //height: 480px !important;
-  //height: relative !important;
-  border: 6px solid rgba(0, 0, 0, 0.125) !important;
+  height: 480px !important;
+  height: relative !important;
+  border: 2px solid rgba(0, 0, 0, 0.125) !important;
+  background-color: #E1F5FE !important;
 }
 
 .secN{
-  color: white;
+  color: black;
   margin-bottom: 10px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
 }
 
 .sec1:hover{
-  border: 2px solid white;
+  border: 2px solid black;
 }
 .sec2:hover{
-  border: 2px solid white;
+  border: 2px solid black;
 }
 .sec3:hover{
-  border: 2px solid white;
-}
-
-#d2{
-  margin-bottom: 40px;
+  border: 2px solid black;
 }
 
 #shop:hover >  #ishop{
-    content:url("./img/shop.jpg");
+    content:url("./img/shop.png");
 }
 #locker:hover >  #ilocker{
     content:url("./img/locker.png");
 }
 #d2:hover >  #id2{
-    content:url("./img/printer.jpg");
+    content:url("./img/printer.png");
 }
 #d3:hover >  #id3{
     content:url("./img/3d-printer.png");
 }
 #hardware:hover >  #ihardware{
-    content:url("./img/hardware.jpg");
+    content:url("./img/hardware.png");
 }
 #monitor:hover >  #imonitor{
-    content:url("./img/monitor.jpg");
+    content:url("./img/monitor.png");
 }
 
 #text{
   text-align: left;
 }
 
-/*
-#locker:hover {
-    border-color: #6ba7e8 !important;
+#bshop:hover {
+  background-color: #6c757d !important;
+  color: white !important;
 }
-#d2:hover {
-    border-color: #82d595 !important;
+#blocker:hover {
+  background-color: #007bff !important;
+  border-color: white !important;
 }
-#d3:hover {
-    border-color: #89e9f9 !important;
+#bd2:hover {
+  background-color: #28a745 !important;
+  border-color: white !important;
 }
-#hardware:hover {
-    border-color: #ffdf7e !important;
+#bd3:hover {
+  background-color: #17a2b8 !important;
+  border-color: white !important;
 }
-#monitor:hover {
-    border-color: #eb7a85 !important;
-}*/
+#bhardware:hover {
+  background-color: #ffc107 !important;
+  border-color: white !important;
+}
+#bmonitor:hover {
+  background-color: #dc3545 !important;
+  border-color: white !important;
+}
