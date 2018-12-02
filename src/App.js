@@ -17,16 +17,16 @@ class App extends Component {
       </div>
 
       <div className="sec sec1">
-      <h1 className="secN">Services</h1>
+      <h1 className="secN"></h1>
         <div className="services">
           <Card id="shop" body outline color="secondary">
             <CardTitle className="title">SCE Shop</CardTitle>
             <CardImg id="ishop" src="../img/shop.png" alt="Shop" />
             <CardText id="text">
               <ul>
-                <li>Snacks and beverages.</li>
-                <li>Frozen Dinner and muffins.</li>
-                <li>CMPE lab supplies.</li>
+                <li>Snacks and beverages</li>
+                <li>Frozen food</li>
+                <li>Lab supplies (ICs, Arduino Uno, wires, etc)</li>
               </ul>
             </CardText>
             <Button className="button" id="bshop">Shop</Button>
@@ -51,7 +51,7 @@ class App extends Component {
 
 
       <div className="sec sec2">
-      <h1 className="secN">Printers</h1>
+      <h1 className="secN"></h1>
         <div className="services">
           <Card id="d2" body outline color="success">
             <CardTitle className="title">2D-Printing Service</CardTitle>
@@ -83,7 +83,7 @@ class App extends Component {
 
 
       <div className="sec sec3">
-      <h1 className="secN">Accessories</h1>
+      <h1 className="secN"></h1>
         <div className="services">
           <Card id="hardware" body outline color="warning">
             <CardTitle className="title">Hardware Station</CardTitle>
