@@ -32,6 +32,8 @@
 .button{
   background-color: #909ca7 !important;
   color: white !important;
+  position: relative;
+  //top: auto;
 }
 
 /*App {
