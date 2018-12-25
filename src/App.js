@@ -26,17 +26,16 @@ class App extends Component {
               <ul>
                 <li>Snacks and beverages</li>
                 <li>Frozen food</li>
-                <li>Lab supplies (ICs, Arduino Uno, wires, etc)</li>
+                <li>Lab supplies (ICs, Arduino Uno, wires, etc.)</li>
               </ul>
             </CardText>
             <Button className="button" id="bshop">Shop</Button>
           </Card>
-
         </div>
 
         <div className="services">
           <Card id="locker" body outline color="primary">
-            <CardTitle className="title">Locker Service</CardTitle>
+            <CardTitle className="title">SCE Lockers Service</CardTitle>
             <CardImg id="ilocker" src="../img/locker.png" alt="Locker" />
             <CardText id="text">
               <ul>
@@ -45,6 +44,22 @@ class App extends Component {
               </ul>
             </CardText>
             <Button className="button" id="blocker">Rent</Button>
+          </Card>
+        </div>
+
+        <div className="services">
+          <Card id="techw" body outline color="">
+            <CardTitle className="title">Technical Workshop</CardTitle>
+            <CardImg id="itechw" src="../img/techw.png" alt="technical workshop" />
+            <CardText id="text">
+              <ul>
+                <li>Web design</li>
+                <li>Git workshop</li>
+                <li>linux workshop</li>
+                <li>Bash and Shell workshop, etc.</li>
+              </ul>
+            </CardText>
+            <Button className="button" id="btechw">View</Button>
           </Card>
         </div>
       </div>
@@ -72,11 +87,24 @@ class App extends Component {
             <CardImg id="id3" src="../img/3d-printer.png" alt="Printer-3D" />
             <CardText id="text">
               <ul>
-                <li>FREE TISSUE</li>
-                <li>I HAVE ISSUE</li>
+                <li>3D print services for SCE members</li>
               </ul>
             </CardText>
             <Button className="button" id="bd3">Print</Button>
+          </Card>
+        </div>
+
+        <div className="services">
+          <Card id="after" body outline color="">
+            <CardTitle className="title">After Hour Room Access</CardTitle>
+            <CardImg id="iafter" src="../img/clock.png" alt="after" />
+            <CardText id="text">
+              <ul>
+                <li>Available studying room and hangout space with friends</li>
+                <li>We also host party, movie, and game nights</li>
+              </ul>
+            </CardText>
+            <Button className="button" id="bafter">View</Button>
           </Card>
         </div>
       </div>
@@ -86,7 +114,7 @@ class App extends Component {
       <h1 className="secN"></h1>
         <div className="services">
           <Card id="hardware" body outline color="warning">
-            <CardTitle className="title">Hardware Station</CardTitle>
+            <CardTitle className="title">Hardware Hacking Station</CardTitle>
             <CardImg id="ihardware" src="../img/hardware.png" alt="Hardware Station" />
             <CardText id="text">
               <ul>
@@ -109,6 +137,22 @@ class App extends Component {
               </ul>
             </CardText>
             <Button className="button" id="bmonitor">Monitor</Button>
+          </Card>
+        </div>
+
+        <div className="services">
+          <Card id="equipm" body outline color="">
+            <CardTitle className="title">Equipment Lending</CardTitle>
+            <CardImg id="iequipm" src="../img/cart.png" alt="equipment" />
+            <CardText id="text">
+              <ul>
+                <li>Keyboards</li>
+                <li>linux laptops</li>
+                <li>Ethernet cables</li>
+                <li>Logic analyzers, etc.</li>
+              </ul>
+            </CardText>
+            <Button className="button" id="bequipm">Checkout</Button>
           </Card>
         </div>
       </div>
