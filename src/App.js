@@ -39,8 +39,8 @@ class App extends Component {
             <CardImg id="ilocker" src="../img/locker.png" alt="Locker" />
             <CardText id="text">
               <ul>
-                <li>$10 per person.</li>
-                <li>3 members per locker.</li>
+                <li>$10 per person</li>
+                <li>3 members per locker</li>
               </ul>
             </CardText>
             <Button className="button" id="blocker">Rent</Button>
@@ -73,8 +73,8 @@ class App extends Component {
             <CardImg id="id2" src="../img/printer.png" alt="Printer-2D" />
             <CardText id="text">
               <ul>
-                <li>30-pages limit per week.</li>
-                <li>Reset every Sunday.</li>
+                <li>30-pages limit per week</li>
+                <li>Reset every Sunday</li>
               </ul>
             </CardText>
             <Button className="button" id="bd2">Print</Button>
@@ -118,9 +118,9 @@ class App extends Component {
             <CardImg id="ihardware" src="../img/hardware.png" alt="Hardware Station" />
             <CardText id="text">
               <ul>
-                <li>ESD benches.</li>
-                <li>Soldering tools, Soldering irons, and fume fans.</li>
-                <li>Power supplies and multimeters.</li>
+                <li>ESD benches</li>
+                <li>Soldering tools, Soldering irons, and fume fans</li>
+                <li>Power supplies and multimeters</li>
               </ul>
             </CardText>
             <Button className="button" id="bhardware">Start Hacking</Button>
@@ -133,7 +133,8 @@ class App extends Component {
             <CardImg id="imonitor" src="../img/monitor.png" alt="Monitor" />
             <CardText id="text">
               <ul>
-                <li>Every table at SCE comes with a monitor for you.</li>
+                <li>Every table at SCE comes with a monitor for you</li>
+                <li>Keyboards available at request</li>
               </ul>
             </CardText>
             <Button className="button" id="bmonitor">Monitor</Button>
